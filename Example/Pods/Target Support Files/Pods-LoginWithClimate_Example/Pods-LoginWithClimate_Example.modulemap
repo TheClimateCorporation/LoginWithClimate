@@ -1,0 +1,6 @@
+framework module Pods_LoginWithClimate_Example {
+  umbrella header "Pods-LoginWithClimate_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
