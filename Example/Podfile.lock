@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LoginWithClimate: b25613f82157ecea908dc5d80084ff4f877f89cb
+  LoginWithClimate: bce739501d5891bb699013004705fbd4ddf4b4e3
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
 
