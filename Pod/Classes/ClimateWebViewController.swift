@@ -9,11 +9,18 @@
 import Foundation
 import UIKit
 
+protocol AuthorizationCodeDelegate {
+    func didGetAuthorizationCode(code: String)
+}
+
 class ClimateWebViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet var webView: UIWebView!
 
-    let loginPageQueryParams: [NSURLQueryItem] = [ "page": "oidcauthn",
+    var delegate: AuthorizationCodeDelegate?
+
+    let loginPageQueryParams: [NSURLQueryItem] = [
+                                 "page": "oidcauthn",
                                  "client_id": "authorize",
                                  "response_type": "code",
                                  "redirect_uri": "done:",
@@ -21,7 +28,6 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
                                ].map({(k, v) in NSURLQueryItem(name: k, value: v) })
 
     override func viewDidLoad() {
-
         let l = NSURLComponents(string: "https://qa1.climate.com/static/auth-pages/index.html")!
         l.queryItems = loginPageQueryParams
         let loginPageURL = l.URL!
@@ -70,8 +76,7 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
                 })
 
                 if let code = queryParamDictionary["code"] {
-                    print("Authorization code is: \(code)")
-                    print("")
+                    self.delegate?.didGetAuthorizationCode(code)
                 } else {
                     print("Did not get an authorization code in redirect: \(request.URL)")
                 }

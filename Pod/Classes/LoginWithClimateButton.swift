@@ -9,21 +9,11 @@
 import Foundation
 import UIKit
 
-public class LoginWithClimateButton: UIViewController {
+public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate {
 
     override public func loadView() {
-//        self.view.backgroundColor = UIColor.redColor()
-
         let button = UIButton(type: .System)
         button.setTitle("Login with Climate", forState: .Normal)
-//        self.view.addSubview(button)
-
-//        button.translatesAutoresizingMaskIntoConstraints = false
-//        let horizontalConstraint = button.centerXAnchor.constraintEqualToAnchor(self.centerXAnchor)
-//        let verticalConstraint = button.centerYAnchor.constraintEqualToAnchor(self.centerYAnchor)
-//        horizontalConstraint.active = true
-//        verticalConstraint.active = true
-
         button.addTarget(self, action: "loginWithClimate:", forControlEvents: .TouchUpInside)
 
         view = button
@@ -35,9 +25,20 @@ public class LoginWithClimateButton: UIViewController {
         print(NSBundle(forClass: self.dynamicType))
         
         let storyboard = UIStoryboard(name: "Login", bundle: NSBundle(forClass: self.dynamicType))
-        if let rootViewController = storyboard.instantiateInitialViewController() {
+        if let rootViewController = storyboard.instantiateInitialViewController() as? UINavigationController {
+            if let webViewController = rootViewController.topViewController as? ClimateWebViewController {
+                print("Web view controller.")
+                webViewController.delegate = self
+            } else {
+                print("NOT a web view controller.")
+            }
             self.presentViewController(rootViewController, animated: true, completion: nil)
+        } else {
+            print("Failed to segue.")
         }
     }
 
+    func didGetAuthorizationCode(code: String) {
+        print("Authorization code is: \(code)")
+    }
 }
