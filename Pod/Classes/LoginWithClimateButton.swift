@@ -41,4 +41,8 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
     func didGetAuthorizationCode(code: String) {
         print("Authorization code is: \(code)")
     }
+
+    func requestAuthToken(authorizationCode: String, clientId: String, clientSecret: String) {
+//        let url = NSURL("https://qa1.climate.com/api/oauth/token")
+    }
 }

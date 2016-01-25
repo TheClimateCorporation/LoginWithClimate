@@ -18,25 +18,13 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet var webView: UIWebView!
 
     var delegate: AuthorizationCodeDelegate?
-
-    let loginPageQueryParams: [NSURLQueryItem] = [
-                                 "page": "oidcauthn",
-                                 "client_id": "authorize",
-                                 "response_type": "code",
-                                 "redirect_uri": "done:",
-                                 "scope": "openid user"
-                               ].map({(k, v) in NSURLQueryItem(name: k, value: v) })
+    var oidc: OIDC = OIDC(clientId: "authorize")
 
     override func viewDidLoad() {
-        let l = NSURLComponents(string: "https://qa1.climate.com/static/auth-pages/index.html")!
-        l.queryItems = loginPageQueryParams
-        let loginPageURL = l.URL!
-
-        print(loginPageURL)
-
         webView.delegate = self
 
-        webView.loadRequest(NSURLRequest(URL: loginPageURL))
+        let loginPageURLWithParams = oidc.loginPageURLWithParams()
+        webView.loadRequest(NSURLRequest(URL: loginPageURLWithParams))
         webView.scrollView.scrollEnabled = false
     }
 
@@ -67,22 +55,23 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
         print(request.URL?.host)
 
         // TODO can this all happen on this thread before returning?
-        if (request.URL?.scheme == "done") {
-            self.dismissViewControllerAnimated(true, completion: nil)
-            if let queryItems = NSURLComponents(URL: request.URL!, resolvingAgainstBaseURL: false)?.queryItems {
-                var queryParamDictionary = [String: String]()
-                queryItems.forEach({(item: NSURLQueryItem) in
-                    queryParamDictionary[item.name] = item.value
-                })
+        if let url = request.URL {
+            if (self.oidc.isRedirectURL(url)) {
+                self.dismissViewControllerAnimated(true, completion: nil)
+                if let queryItems = NSURLComponents(URL: url, resolvingAgainstBaseURL: false)?.queryItems {
+                    var queryParamDictionary = [String: String]()
+                    queryItems.forEach({(item: NSURLQueryItem) in
+                        queryParamDictionary[item.name] = item.value
+                    })
 
-                if let code = queryParamDictionary["code"] {
-                    self.delegate?.didGetAuthorizationCode(code)
-                } else {
-                    print("Did not get an authorization code in redirect: \(request.URL)")
+                    if let code = queryParamDictionary["code"] {
+                        self.delegate?.didGetAuthorizationCode(code)
+                    } else {
+                        // TODO error callback
+                        print("Did not get an authorization code in redirect: \(request.URL)")
+                    }
                 }
             }
-
-            request.URL?.query
         }
 
         return true
