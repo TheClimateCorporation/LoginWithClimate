@@ -47,6 +47,7 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
     }
 
     func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        // We are sure to get these errors when we prevent the redirect in shouldStartLoadWithRequest
         if (error?.code == NSURLErrorCancelled || error?.code == 102 || error?.code == 101) {
             return
         }
@@ -63,9 +64,17 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
         if (request.URL?.scheme == "done") {
             self.dismissViewControllerAnimated(true, completion: nil)
             if let queryItems = NSURLComponents(URL: request.URL!, resolvingAgainstBaseURL: false)?.queryItems {
-                let code = queryItems.filter({(item) -> Bool in item.name == "code"}).first
-                print("Authorization code is: \(code)")
-                print("")
+                var queryParamDictionary = [String: String]()
+                queryItems.forEach({(item: NSURLQueryItem) in
+                    queryParamDictionary[item.name] = item.value
+                })
+
+                if let code = queryParamDictionary["code"] {
+                    print("Authorization code is: \(code)")
+                    print("")
+                } else {
+                    print("Did not get an authorization code in redirect: \(request.URL)")
+                }
             }
 
             request.URL?.query
