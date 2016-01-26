@@ -18,7 +18,7 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet var webView: UIWebView!
 
     var delegate: AuthorizationCodeDelegate?
-    var oidc: OIDC = OIDC(clientId: "authorize")
+    var oidc: OIDC = OIDC(clientId: "devportalsample")
 
     override func viewDidLoad() {
         webView.delegate = self
@@ -47,12 +47,11 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
         }
 
         print("Webview failed to load with error: \(error)")
-
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
     }
 
     func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
         print(request)
-        print(request.URL?.host)
 
         // TODO can this all happen on this thread before returning?
         if let url = request.URL {
