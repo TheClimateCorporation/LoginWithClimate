@@ -11,7 +11,16 @@ import UIKit
 
 public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate {
 
-    let oidc = OIDC(clientId: "devportalsample") // TODO inject
+    let oidc: OIDC
+
+    public init(clientId: String, clientSecret: String) {
+        self.oidc = OIDC(clientId: clientId, clientSecret: clientSecret)
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("NSCoding not supported")
+    }
 
     override public func loadView() {
         let button = UIButton(type: .System)
@@ -28,6 +37,7 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
         if let rootViewController = storyboard.instantiateInitialViewController() as? UINavigationController {
             if let webViewController = rootViewController.topViewController as? ClimateWebViewController {
                 webViewController.delegate = self
+                webViewController.oidc = self.oidc
             } else {
                 print("ERROR: not a web view controller.")
             }
@@ -39,6 +49,6 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
 
     func didGetAuthorizationCode(code: String) {
         print("Authorization code is: \(code)")
-        self.oidc.requestAuthToken(code, clientId: "devportalsample", clientSecret: "")
+        self.oidc.requestAuthToken(authorizationCode: code)
     }
 }

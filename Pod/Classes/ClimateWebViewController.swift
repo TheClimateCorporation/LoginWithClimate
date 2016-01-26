@@ -18,12 +18,12 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet var webView: UIWebView!
 
     var delegate: AuthorizationCodeDelegate?
-    var oidc: OIDC = OIDC(clientId: "devportalsample")
+    var oidc: OIDC!
 
     override func viewDidLoad() {
         webView.delegate = self
 
-        let loginPageURLWithParams = oidc.loginPageURLWithParams()
+        let loginPageURLWithParams = self.oidc.loginPageURLWithParams()
         webView.loadRequest(NSURLRequest(URL: loginPageURLWithParams))
         webView.scrollView.scrollEnabled = false
     }

@@ -11,9 +11,11 @@ import Foundation
 class OIDC {
 
     let clientId: String
+    let clientSecret: String
 
-    init(clientId: String) {
+    init(clientId: String, clientSecret: String) {
         self.clientId = clientId
+        self.clientSecret = clientSecret
     }
 
 
@@ -67,7 +69,7 @@ class OIDC {
         return "Basic \(base64String)"
     }
 
-    func requestAuthToken(authorizationCode: String, clientId: String, clientSecret: String) {
+    func constructTokenRequest(authorizationCode: String, clientId: String, clientSecret: String) -> NSURLRequest {
         let request = NSMutableURLRequest(URL: self.tokenURL)
         request.HTTPMethod = "POST"
 
@@ -77,9 +79,20 @@ class OIDC {
 
         request.setValue(self.basicAccessHeader(principal: clientId, credential: clientSecret), forHTTPHeaderField: "Authorization")
 
+        return request
+    }
+
+    func requestAuthToken(authorizationCode code: String) {
+        let request = self.constructTokenRequest(code, clientId: self.clientId, clientSecret: self.clientSecret)
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
             (data, response, error) in
-            print(NSString(data: data!, encoding: NSUTF8StringEncoding))
+            do {
+                let jsonObject = try NSJSONSerialization.JSONObjectWithData(data!, options: [])
+                print(jsonObject)
+            } catch let error as NSError {
+                print("ERROR: deserializing JSON response: \(error.localizedDescription)")
+                print("Body was: \(NSString(data: data!, encoding: NSUTF8StringEncoding))")
+            }
         }
 
         task.resume()
