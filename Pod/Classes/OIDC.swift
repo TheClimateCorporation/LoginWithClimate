@@ -21,7 +21,6 @@ class OIDC {
 
     // MARK: - Related to login page
 
-    // https://qa1.climate.com/static/app-login/index.html?client_id=authorize&scope=openid+user&redirect_uri=http://climate.com
     let loginPageURL = "https://qa1.climate.com/static/app-login/index.html"
     let loginPageStaticParams = [
         "mobile": "true",
