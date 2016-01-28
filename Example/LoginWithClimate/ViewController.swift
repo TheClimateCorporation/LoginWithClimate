@@ -12,6 +12,7 @@ import LoginWithClimate
 class ViewController: UIViewController, LoginWithClimateDelegate {
 
     @IBOutlet var contentView: UIView!
+    @IBOutlet var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,11 @@ class ViewController: UIViewController, LoginWithClimateDelegate {
 
     func didLoginWithClimate(session: Session) {
         print(session.accessToken)
+        
+        dispatch_async(dispatch_get_main_queue(), {
+            self.label.text = "Welcome \(session.userInfo.firstName)"
+        })
+        
     }
 }
 

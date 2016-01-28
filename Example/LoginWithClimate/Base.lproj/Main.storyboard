@@ -20,22 +20,34 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYe-bd-RqK">
                                 <rect key="frame" x="20" y="439" width="560" height="44"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="lAX-lU-y05"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IC4-hK-kc6">
+                                <rect key="frame" x="20" y="60" width="560" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="pCa-Hl-dqX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="IC4-hK-kc6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" multiplier="2" constant="20" id="0P8-sT-rEE"/>
                             <constraint firstItem="RYe-bd-RqK" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="2BH-3D-87D"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RYe-bd-RqK" secondAttribute="trailing" id="2un-3p-jlj"/>
                             <constraint firstItem="RYe-bd-RqK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Bte-jD-FkQ"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="RYe-bd-RqK" secondAttribute="bottom" multiplier="1.2" constant="20" id="CK3-eA-kHs"/>
+                            <constraint firstItem="IC4-hK-kc6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="WFx-4p-e3h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IC4-hK-kc6" secondAttribute="trailing" id="l63-vd-3xa"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="contentView" destination="RYe-bd-RqK" id="7fX-gB-bwQ"/>
+                        <outlet property="label" destination="IC4-hK-kc6" id="vfE-dA-U8N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
