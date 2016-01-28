@@ -88,9 +88,13 @@ class OIDC {
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
             (data, response, error) in
             do {
-                let jsonObject = try NSJSONSerialization.JSONObjectWithData(data!, options: [])
-                let session = Session(dictionary: (jsonObject as! [String: AnyObject]))!
-                completion?(session)
+                if let jsonObject = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? [String: AnyObject],
+                       session = Session(dictionary: jsonObject) {
+                    completion?(session)
+                } else {
+                    print("ERROR: deserializing JSON response")
+                    print("Body was: \(NSString(data: data!, encoding: NSUTF8StringEncoding))")
+                }
             } catch let error as NSError {
                 print("ERROR: deserializing JSON response: \(error.localizedDescription)")
                 print("Body was: \(NSString(data: data!, encoding: NSUTF8StringEncoding))")
