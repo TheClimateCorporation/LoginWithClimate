@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,18 +19,19 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYe-bd-RqK">
-                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <rect key="frame" x="20" y="439" width="560" height="44"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="NbC-Yb-cBu"/>
-                                    <constraint firstAttribute="height" constant="128" id="l6d-88-7ka"/>
+                                    <constraint firstAttribute="height" constant="44" id="lAX-lU-y05"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="RYe-bd-RqK" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="2BH-3D-87D"/>
-                            <constraint firstItem="RYe-bd-RqK" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="atF-sF-Ipr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RYe-bd-RqK" secondAttribute="trailing" id="2un-3p-jlj"/>
+                            <constraint firstItem="RYe-bd-RqK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Bte-jD-FkQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="RYe-bd-RqK" secondAttribute="bottom" multiplier="1.2" constant="20" id="CK3-eA-kHs"/>
                         </constraints>
                     </view>
                     <connections>

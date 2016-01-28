@@ -21,8 +21,10 @@ class OIDC {
 
     // MARK: - Related to login page
 
-    let loginPageURL = "https://qa1.climate.com/static/auth-pages/index.html"
+    // https://qa1.climate.com/static/app-login/index.html?client_id=authorize&scope=openid+user&redirect_uri=http://climate.com
+    let loginPageURL = "https://qa1.climate.com/static/app-login/index.html"
     let loginPageStaticParams = [
+        "mobile": "true",
         "page": "oidcauthn",
         "response_type": "code",
         "redirect_uri": "done:",
@@ -82,13 +84,14 @@ class OIDC {
         return request
     }
 
-    func requestAuthToken(authorizationCode code: String) {
+    func requestAuthToken(authorizationCode code: String, onComplete completion: ((Session) -> Void)?) {
         let request = self.constructTokenRequest(code, clientId: self.clientId, clientSecret: self.clientSecret)
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
             (data, response, error) in
             do {
                 let jsonObject = try NSJSONSerialization.JSONObjectWithData(data!, options: [])
-                print(jsonObject)
+                let session = Session(dictionary: (jsonObject as! [String: AnyObject]))!
+                completion?(session)
             } catch let error as NSError {
                 print("ERROR: deserializing JSON response: \(error.localizedDescription)")
                 print("Body was: \(NSString(data: data!, encoding: NSUTF8StringEncoding))")

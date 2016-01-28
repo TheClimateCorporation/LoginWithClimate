@@ -57,6 +57,8 @@
 		9E7786C034F0E0A6B5F0A0E6BE7D7E4A /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE24AE8654BDA8234080C23F6335E26 /* BeEmpty.swift */; };
 		A1747BACC02828BAFDAA8D12117CC449 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF695047E0AAFB3CA54EC10F0E97FD3 /* Configuration.swift */; };
 		A41AE7D01C56B06C00B79879 /* OIDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AE7CF1C56B06C00B79879 /* OIDC.swift */; };
+		A41AE7D21C57E26700B79879 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41AE7D11C57E26700B79879 /* Media.xcassets */; };
+		A41AE7D41C57F8EE00B79879 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AE7D31C57F8EE00B79879 /* UserInfo.swift */; };
 		A4DB2FA61C51898400B0CA21 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DB2FA51C51898400B0CA21 /* Login.storyboard */; };
 		A4DB2FAA1C51921900B0CA21 /* ClimateWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DB2FA91C51921900B0CA21 /* ClimateWebViewController.swift */; };
 		B0A26F58BA3E6222E50AE5AC883B8EAF /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DFC0D37F8449B1B2A2D117D1179A2 /* DSL.m */; };
@@ -210,6 +212,8 @@
 		9FA31E06A441B5EDF74590FEFD2D086D /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F28D4E36F250C10A05D2105AAC2E4A /* Pods-LoginWithClimate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginWithClimate_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A41AE7CF1C56B06C00B79879 /* OIDC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OIDC.swift; sourceTree = "<group>"; };
+		A41AE7D11C57E26700B79879 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		A41AE7D31C57F8EE00B79879 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		A4DB2FA51C51898400B0CA21 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		A4DB2FA91C51921900B0CA21 /* ClimateWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimateWebViewController.swift; sourceTree = "<group>"; };
 		AE670FBBCC7FBB0E81F05DA0C8EAAEE5 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
@@ -445,6 +449,8 @@
 				A4DB2FA51C51898400B0CA21 /* Login.storyboard */,
 				A4DB2FA91C51921900B0CA21 /* ClimateWebViewController.swift */,
 				A41AE7CF1C56B06C00B79879 /* OIDC.swift */,
+				A41AE7D11C57E26700B79879 /* Media.xcassets */,
+				A41AE7D31C57F8EE00B79879 /* UserInfo.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -764,6 +770,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4DB2FA61C51898400B0CA21 /* Login.storyboard in Resources */,
+				A41AE7D21C57E26700B79879 /* Media.xcassets in Resources */,
 				DB253F2AB41D890DC05C38FA96C7902A /* LoginWithClimate.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -832,6 +839,7 @@
 				A41AE7D01C56B06C00B79879 /* OIDC.swift in Sources */,
 				07A7C6659829BB2EE6654FBCB4FBCB15 /* LoginWithClimate-dummy.m in Sources */,
 				2241DC1F25BB19AB7E57006210A4BD9B /* LoginWithClimateButton.swift in Sources */,
+				A41AE7D41C57F8EE00B79879 /* UserInfo.swift in Sources */,
 				A4DB2FAA1C51921900B0CA21 /* ClimateWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

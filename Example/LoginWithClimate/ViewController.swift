@@ -9,14 +9,16 @@
 import UIKit
 import LoginWithClimate
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, LoginWithClimateDelegate {
 
     @IBOutlet var contentView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let loginViewController = LoginWithClimateButton()
+        let loginViewController = LoginWithClimateButton(clientId: "devportalsample", clientSecret: "")
+        loginViewController.delegate = self
+
         contentView.addSubview(loginViewController.view)
 
         loginViewController.view.translatesAutoresizingMaskIntoConstraints = false
@@ -26,5 +28,8 @@ class ViewController: UIViewController {
         self.addChildViewController(loginViewController)
     }
 
+    func didLoginWithClimate(session: Session) {
+        print(session.accessToken)
+    }
 }
 

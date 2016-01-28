@@ -25,7 +25,7 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
 
         let loginPageURLWithParams = self.oidc.loginPageURLWithParams()
         webView.loadRequest(NSURLRequest(URL: loginPageURLWithParams))
-        webView.scrollView.scrollEnabled = false
+//        webView.scrollView.scrollEnabled = false
     }
 
     @IBAction func cancel(sender: AnyObject) {
