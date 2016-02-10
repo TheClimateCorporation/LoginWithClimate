@@ -11,20 +11,19 @@ import LoginWithClimate
 
 class ViewController: UIViewController, LoginWithClimateDelegate {
 
-    @IBOutlet var contentView: UIView!
     @IBOutlet var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let loginViewController = LoginWithClimateButton(clientId: "devportalsample", clientSecret: "")
+        let loginViewController = LoginWithClimateButton(clientId: "REPLACE ME", clientSecret: "REPLACE ME")
         loginViewController.delegate = self
 
-        contentView.addSubview(loginViewController.view)
-
+        view.addSubview(loginViewController.view)
+        
         loginViewController.view.translatesAutoresizingMaskIntoConstraints = false
-        contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[view]-0-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: ["view":loginViewController.view]))
-        contentView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[view]-0-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: ["view":loginViewController.view]))
+        view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-[view]-|", options: NSLayoutFormatOptions.AlignAllCenterY, metrics: nil, views: ["view":loginViewController.view]))
+        view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:[view]-30-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: ["view":loginViewController.view]))
 
         self.addChildViewController(loginViewController)
     }
