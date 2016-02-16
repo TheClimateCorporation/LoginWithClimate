@@ -9,16 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = "LoginWithClimate"
   s.version          = "0.1.0"
-  s.summary          = "A short description of LoginWithClimate."
+  s.summary          = "An OpenID connect implementation for integrating climate.com logins into third-party apps."
 
   s.description      = <<-DESC
+                        An OpenID connect implementation for integrating climate.com logins into third-party apps.
+                        Exports a "Login with Climate" button.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LoginWithClimate"
+  s.homepage         = "https://github.com/TheClimateCorporation/LoginWithClimate"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = 'Apache 2.0'
   s.author           = { "Tommy Rogers" => "tommy.rogers@climate.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LoginWithClimate.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/TheClimateCorporation/LoginWithClimate.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
@@ -27,8 +29,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'LoginWithClimate' => ['Pod/Assets/*.png', 'Pod/Resources/*']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

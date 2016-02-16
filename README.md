@@ -24,3 +24,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "LoginWithClimate", :git => 'https://github.com/TheClimateCorporation/LoginWithClimate', :tag => '0.1.0'
 ```
+
+## License
+
+<http://www.apache.org/licenses/LICENSE-2.0.html>
