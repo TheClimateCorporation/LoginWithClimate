@@ -47,13 +47,17 @@ class ViewController: UIViewController, LoginWithClimateDelegate {
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
             (data, response, error) in
             do {
-                let jsonObject = try NSJSONSerialization.JSONObjectWithData(data!, options: [])
-                let names = (jsonObject["fields"] as! Array).map() {
-                    (field: [String: AnyObject]) -> String in
-                    return field["name"] as! String
+                let jsonObject = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as! [String: AnyObject]
+                if let fields = jsonObject["fields"] as? [[String: AnyObject]] {
+                    let names = fields.map() {
+                        (field: [String: AnyObject]) -> String in
+                        return field["name"] as! String
+                    }
+                    completion(names)
+                } else {
+                    print("ERROR: \(NSString(data:data!, encoding:NSUTF8StringEncoding))")
                 }
                 
-                completion(names)
             } catch let error as NSError {
                 print("ERROR: deserializing JSON response: \(error.localizedDescription)")
                 print("Body was: \(NSString(data: data!, encoding: NSUTF8StringEncoding))")
