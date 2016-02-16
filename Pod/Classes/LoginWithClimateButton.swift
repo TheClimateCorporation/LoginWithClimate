@@ -52,13 +52,19 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
     func loginWithClimate(sender: AnyObject) {
         print("Beginning LoginWithClimate")
 
-        let storyboard = UIStoryboard(name: "Login", bundle: NSBundle(forClass: self.dynamicType))
+        guard let resourceBundleURL = NSBundle(forClass: self.dynamicType).URLForResource("LoginWithClimate", withExtension: "bundle") else {
+            print("ERROR: Fatal error in LoginWithClimate. Could not locate nested resource bundle with storyboard file.")
+            return
+        }
+
+        let storyboard = UIStoryboard(name: "Login", bundle: NSBundle(URL: resourceBundleURL))
+
         if let rootViewController = storyboard.instantiateInitialViewController() as? UINavigationController {
             if let webViewController = rootViewController.topViewController as? ClimateWebViewController {
                 webViewController.delegate = self
                 webViewController.oidc = self.oidc
             } else {
-                print("ERROR: not a web view controller.")
+                print("ERROR: not a ClimateWebViewController.")
             }
             self.presentViewController(rootViewController, animated: true, completion: nil)
         } else {
