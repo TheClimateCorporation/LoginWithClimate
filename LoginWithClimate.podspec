@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'LoginWithClimate' => ['Pod/Assets/*.png']
+    'LoginWithClimate' => ['Pod/Assets/*.png', 'Pod/Resources/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

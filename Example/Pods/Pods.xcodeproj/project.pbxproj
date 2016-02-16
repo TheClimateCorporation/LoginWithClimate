@@ -59,7 +59,7 @@
 		A41AE7D01C56B06C00B79879 /* OIDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AE7CF1C56B06C00B79879 /* OIDC.swift */; };
 		A41AE7D21C57E26700B79879 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41AE7D11C57E26700B79879 /* Media.xcassets */; };
 		A41AE7D41C57F8EE00B79879 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AE7D31C57F8EE00B79879 /* UserInfo.swift */; };
-		A4DB2FA61C51898400B0CA21 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DB2FA51C51898400B0CA21 /* Login.storyboard */; };
+		A4234B431C73E1C4006AAA4E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4234B421C73E1C4006AAA4E /* Login.storyboard */; };
 		A4DB2FAA1C51921900B0CA21 /* ClimateWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DB2FA91C51921900B0CA21 /* ClimateWebViewController.swift */; };
 		B0A26F58BA3E6222E50AE5AC883B8EAF /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DFC0D37F8449B1B2A2D117D1179A2 /* DSL.m */; };
 		B41E8E775408ACE233F29CE93388B270 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6727AA774C6723AFCA6CFCEF099071C7 /* Contain.swift */; };
@@ -214,7 +214,7 @@
 		A41AE7CF1C56B06C00B79879 /* OIDC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OIDC.swift; sourceTree = "<group>"; };
 		A41AE7D11C57E26700B79879 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		A41AE7D31C57F8EE00B79879 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
-		A4DB2FA51C51898400B0CA21 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A4234B421C73E1C4006AAA4E /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Resources/Login.storyboard; sourceTree = "<group>"; };
 		A4DB2FA91C51921900B0CA21 /* ClimateWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimateWebViewController.swift; sourceTree = "<group>"; };
 		AE670FBBCC7FBB0E81F05DA0C8EAAEE5 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		AE6E3634125A20B9BA58962919B08DDC /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
@@ -345,6 +345,7 @@
 		2B08349C41BF108A887810608EFFDBA6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				A4234B441C73E1C8006AAA4E /* Resources */,
 				6DC518B6B46D330EF1A53C81707724FC /* Classes */,
 			);
 			path = Pod;
@@ -446,7 +447,6 @@
 			isa = PBXGroup;
 			children = (
 				32304359F6652A70807DEA5116540157 /* LoginWithClimateButton.swift */,
-				A4DB2FA51C51898400B0CA21 /* Login.storyboard */,
 				A4DB2FA91C51921900B0CA21 /* ClimateWebViewController.swift */,
 				A41AE7CF1C56B06C00B79879 /* OIDC.swift */,
 				A41AE7D11C57E26700B79879 /* Media.xcassets */,
@@ -474,6 +474,14 @@
 				64E98FF7B6454214F8290BB0AC208D8F /* Quick */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4234B441C73E1C8006AAA4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4234B421C73E1C4006AAA4E /* Login.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D06DB0AB526F7B4FD31708B37BFE8A13 /* Pods-LoginWithClimate_Tests */ = {
@@ -769,7 +777,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DB2FA61C51898400B0CA21 /* Login.storyboard in Resources */,
+				A4234B431C73E1C4006AAA4E /* Login.storyboard in Resources */,
 				A41AE7D21C57E26700B79879 /* Media.xcassets in Resources */,
 				DB253F2AB41D890DC05C38FA96C7902A /* LoginWithClimate.bundle in Resources */,
 			);
