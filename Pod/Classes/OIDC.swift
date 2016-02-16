@@ -21,7 +21,7 @@ class OIDC {
 
     // MARK: - Related to login page
 
-    let loginPageURL = "https://qa1.climate.com/static/app-login/index.html"
+    let loginPageURL = "https://climate.com/static/app-login/index.html"
     let loginPageStaticParams = [
         "mobile": "true",
         "page": "oidcauthn",
@@ -53,7 +53,7 @@ class OIDC {
         return set.copy() as! NSCharacterSet
     }()
 
-    let tokenURL = NSURL(string: "https://qa1.climate.com/api/oauth/token")!
+    let tokenURL = NSURL(string: "https://climate.com/api/oauth/token")!
     let tokenCallStaticParams = [
         "grant_type": "authorization_code",
         "scope": "user openid",

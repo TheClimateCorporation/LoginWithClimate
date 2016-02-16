@@ -41,7 +41,7 @@ class ViewController: UIViewController, LoginWithClimateDelegate {
     
     func listFieldNames(accessToken: String, onComplete completion: ([String] -> Void)) {
         
-        let request = NSMutableURLRequest(URL: NSURL(string: "https://dmfhoydgci.execute-api.us-east-1.amazonaws.com/qa1/fields?includeBoundary=true")!)
+        let request = NSMutableURLRequest(URL: NSURL(string: "https://9zfysaa1n8.execute-api.us-east-1.amazonaws.com/api/fields?includeBoundary=true")!)
         request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
         
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
