@@ -34,16 +34,32 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
         fatalError("NSCoding not supported")
     }
 
+    func resourceBundle() -> NSBundle? {
+        if let url = NSBundle(forClass: self.dynamicType).URLForResource("LoginWithClimate", withExtension: "bundle") {
+            return NSBundle(URL: url)
+        } else {
+            return nil
+        }
+    }
+
     override public func loadView() {
+        guard let bundle = resourceBundle() else {
+            print("ERROR: Fatal error in LoginWithClimate. Could not locate nested resource bundle with button image.")
+            view = UIView() // To avoid crashing the whole app when we can't load.
+            return
+        }
+
+        guard let img: UIImage = UIImage.init(named: "LoginWithClimateButton",
+            inBundle: bundle,
+            compatibleWithTraitCollection: nil) else {
+                print("ERROR: Fatal error in LoginWithClimate. Could not locate button image.")
+                view = UIView() // To avoid crashing the whole app when we can't load.
+                return
+        }
+
         let button = UIButton(type: .Custom)
-
-        let img: UIImage = UIImage.init(named: "LoginWithClimateButton",
-            inBundle: NSBundle.init(forClass: self.dynamicType),
-            compatibleWithTraitCollection: nil)!
-
         button.setImage(img, forState: .Normal)
         button.imageView?.contentMode = .ScaleAspectFit
-
         button.addTarget(self, action: "loginWithClimate:", forControlEvents: .TouchUpInside)
 
         view = button
@@ -52,12 +68,12 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
     func loginWithClimate(sender: AnyObject) {
         print("Beginning LoginWithClimate")
 
-        guard let resourceBundleURL = NSBundle(forClass: self.dynamicType).URLForResource("LoginWithClimate", withExtension: "bundle") else {
+        guard let bundle = resourceBundle() else {
             print("ERROR: Fatal error in LoginWithClimate. Could not locate nested resource bundle with storyboard file.")
             return
         }
 
-        let storyboard = UIStoryboard(name: "Login", bundle: NSBundle(URL: resourceBundleURL))
+        let storyboard = UIStoryboard(name: "Login", bundle: bundle)
 
         if let rootViewController = storyboard.instantiateInitialViewController() as? UINavigationController {
             if let webViewController = rootViewController.topViewController as? ClimateWebViewController {
