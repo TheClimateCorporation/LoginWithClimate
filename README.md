@@ -1,14 +1,20 @@
 # LoginWithClimate
 
-[![Version](https://img.shields.io/cocoapods/v/LoginWithClimate.svg?style=flat)](http://cocoapods.org/pods/LoginWithClimate)
-[![License](https://img.shields.io/cocoapods/l/LoginWithClimate.svg?style=flat)](http://cocoapods.org/pods/LoginWithClimate)
-[![Platform](https://img.shields.io/cocoapods/p/LoginWithClimate.svg?style=flat)](http://cocoapods.org/pods/LoginWithClimate)
-
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Detailed documentation is available on the [Climate developer portal](https://climate.com/static/dev-portal/index.html#item=login-with-climate&view=markdown).
 
-## Requirements
+## Running the Example App
+
+To run the example project:
+
+1. clone the repo,
+
+2. generate an application credential pair at the [Climate developer portal](https://climate.com/static/dev-portal/index.html),
+
+3. supply your client id and client secret in [ViewController.swift](blob/master/Example/LoginWithClimate/ViewController.swift),
+
+4. and run `pod install` from the Example directory.
 
 ## Installation
 
@@ -16,9 +22,5 @@ LoginWithClimate is available as a [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LoginWithClimate", :git => 'https://github.com/TheClimateCorporation/LoginWithClimate'
+pod "LoginWithClimate", :git => 'https://github.com/TheClimateCorporation/LoginWithClimate', :tag => '0.1.0'
 ```
-
-## Author
-
-Tommy Rogers, tommy.rogers@climate.com
