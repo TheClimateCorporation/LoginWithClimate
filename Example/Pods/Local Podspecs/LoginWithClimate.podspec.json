@@ -1,15 +1,15 @@
 {
   "name": "LoginWithClimate",
   "version": "0.1.0",
-  "summary": "A short description of LoginWithClimate.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/LoginWithClimate",
-  "license": "MIT",
+  "summary": "An OpenID connect implementation for integrating climate.com logins into third-party apps.",
+  "description": "An OpenID connect implementation for integrating climate.com logins into third-party apps.\nExports a \"Login with Climate\" button.",
+  "homepage": "https://github.com/TheClimateCorporation/LoginWithClimate",
+  "license": "Apache 2.0",
   "authors": {
     "Tommy Rogers": "tommy.rogers@climate.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/LoginWithClimate.git",
+    "git": "https://github.com/TheClimateCorporation/LoginWithClimate.git",
     "tag": "0.1.0"
   },
   "platforms": {
