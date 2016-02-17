@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'LoginWithClimate' => ['Pod/Assets/*.png', 'Pod/Resources/*']
   }
-  s.resources = ['Pod/Classes/Media.xcassets', '**/*.xcassets']
+  s.resources = ['Pod/Resources/Media.xcassets']
 end

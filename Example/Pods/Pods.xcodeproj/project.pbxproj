@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0089C3E456B3A1788743ADFCF7B54650 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983222D1057A23F573C35BA59872F5D0 /* Media.xcassets */; };
 		02BF9988CC94A01E7CB6049694390020 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FBD52025077E5788ADCE71EF040393 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02DF5BD2281BA10105A447F95FCF8CF3 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011BCE1507648ECA7586CF7DABF6F4C /* BeLogical.swift */; };
 		0492354DA7EF0C9068F7B4E8F74001B0 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25961731CF4F7537A5ECD61A000A150C /* FailureMessage.swift */; };
 		0A6E71555F55082003A3DB2B03CA85D2 /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D42013D479CDC11E7882C7C0045B66B /* AsyncMatcherWrapper.swift */; };
+		0CF715DB167C1B1114B52149197A1EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		0F49254A4C560DD4696936F6080756DC /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4AE1E80CC4EA4F2E1FF17CA10A3D26 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FFA4BBC84514B6BF49634217D1272E3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67156E042EE544EA0D01847157F2650E /* Media.xcassets */; };
-		1027ECE49B3413A0B40D57C5AC344AB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DEF9FDCB08FD638B7337B546535C83 /* Images.xcassets */; };
-		139B2FA5C83E09E95FB324FBA0BE8120 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2039723E35725E489DF34BD3F941107 /* Login.storyboard */; };
 		13B0D15293FEA805CD4ED1B6A5DD3BA5 /* Pods-LoginWithClimate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A3590ED35EEBCEDC34A95B5D83AAC /* Pods-LoginWithClimate_Tests-dummy.m */; };
 		14B66091144D8E4EB82062D20439A4D7 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 62241019A9DFE31F82A2CDF8690A163C /* QuickSpec.m */; };
 		150D55FCE36D004CF6E61D8AFC7CFF7C /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ABC5A3D02301EC1EC014B6ABEFA42A /* NSString+QCKSelectorName.m */; };
-		19FAA86A3B62BBC76D0F37B29D316DBD /* 44.png in Sources */ = {isa = PBXBuildFile; fileRef = C3D88F89DA275DB26EFE4CC5F911868A /* 44.png */; };
 		1E28F9362956B758C4C981D3C1129C90 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CD67A0263B5D926517C112081F48B2 /* BeGreaterThan.swift */; };
 		29B7401EF5675B7DCA25F0EFB209F6F1 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DD2CC5441C4540A072B29E4A257A9D /* DSL.swift */; };
+		29EA773BF5B427D1581707FEC6078A73 /* ClimateWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93FA5A276F6A6E25B0F806532BCC371 /* ClimateWebViewController.swift */; };
 		2D3B916F7168E9412EDB95BA203A5BB4 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC0728045ED4D4A2C12B52A561EEF7 /* ThrowError.swift */; };
 		2FC74FFB9819D1B06A4F534990599A47 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8C281E400A6FABAD082CEA7263B2A /* ExampleHooks.swift */; };
 		33264C6A7A3536AD91EF42B3E8CC8220 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB6589A73F51F073DF050F55D7F41 /* BeGreaterThanOrEqualTo.swift */; };
 		33514FEE6EA65605EFB6F1801834B692 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C995C72A44C02A9369FA2BDB1F4FF /* AssertionDispatcher.swift */; };
 		34082076CD6DD7E5EFD6AB387A1B3578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		35BE16198466FACF343B15E6BF5168CD /* Pods-LoginWithClimate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 549563AD8908487DA86AD4B4DD44F563 /* Pods-LoginWithClimate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		397BE70C44AA889EF3B1E4C9CAFB43CA /* LoginWithClimate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 206E7FA6B98A5BDA1507C9AF84C46173 /* LoginWithClimate-dummy.m */; };
 		3A92AEE86034356AF8987F20EE1F82DF /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B6303CCFDEBF93094E92D50CAFF38 /* EndWith.swift */; };
 		3AEAC447B09E7AABC140654C8529BC94 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EEEBE209F0CF242FBC231937E6922 /* MatcherFunc.swift */; };
-		40F7F963A85CEEC79718EFBA729422FC /* ClimateWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D8E5FA015E7F3F26F39B7FC6D2C54 /* ClimateWebViewController.swift */; };
+		3D9B7E5D26E5812E2D5ADA0399F3272D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983222D1057A23F573C35BA59872F5D0 /* Media.xcassets */; };
 		43C3DE66984A178F8612C25A68006B0C /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2543809E4D3D9755B94735346ACDFF03 /* QCKDSL.m */; };
 		48E40D6E682B249DA17829EB6D3C8920 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A039912FDC46FCB2AF6DCEEB91ADB4 /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E87C6AE24AB15700A39FC24A2F1C93B /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E12C6F645E5DC0EDB23023A394F1CB1 /* BeLessThanOrEqual.swift */; };
@@ -38,13 +38,14 @@
 		52A05F22A1DF3973020C0FB91FF6E1F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279AA6492631DEFA8C439A9C088EEB8A /* XCTest.framework */; };
 		588E14FA2B7B3842610C04DD8F2BC1BF /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E0D7E2D11371A45CB3D1221E7B4EC2 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58EBA2C1A43283FB2188AB1FB592D32B /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9040AB08CA7AEB727960E284F746A4 /* DSL.swift */; };
-		599539006BD09D1D62E61CC492C79C6D /* LoginWithClimate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE4D768C917A4BB702C2C3851788EFA /* LoginWithClimate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF69B6B12CDC9A999515B0016F3862E /* LoginWithClimateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84146D377802DCDE65E1E147BCE7DE0F /* LoginWithClimateButton.swift */; };
+		63B4129A58EA1E8D7AC6C8D7610C4D80 /* LoginWithClimate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B25FE38E3A882A6CF65632D37F951407 /* LoginWithClimate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		715C11FE148AAE3EC85C14D5CEC80062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		72251A4713F7D207AB66F886202EEC89 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0EAA5BA062125C64E6A819695F87C6 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		73695FA6A6CDFBB13C0CC73C2E5126C0 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E9634CF58B22F95DF5AA222CDAF9B8 /* Nimble-dummy.m */; };
+		7459A4FDBD2926618DFF6314836D0BDC /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4734E648CEFE6CAFF3E8D35568B5F5DF /* UserInfo.swift */; };
 		7680F08C43B965EC873D26E6AD854C9F /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1AA2E4CDFA7B6FD9B4F253CAF481F /* BeIdenticalTo.swift */; };
 		77128C0365A98E3BAC038A915B38791C /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B53DF3C5B85F993313E9FA09386C167 /* BeAKindOf.swift */; };
-		785745053768D0EE204CF3284F43F81C /* OIDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3758BF7997835C721F48A57F6340BE1 /* OIDC.swift */; };
 		79685C6A38DC0F5D40C2AF00EB05E9CE /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9D0077C69A720B9DD2BB12344FD893 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A6E2730A25A55D8DFA74D3D7CB005EF /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13064CC241598F189B1341470994F9D9 /* BeAnInstanceOf.swift */; };
 		7BFD25B1BB1116D8AC47E2C3874C5B76 /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B922FF75D982F502B345AE30399F97 /* ObjCMatcher.swift */; };
@@ -53,15 +54,14 @@
 		831D33A4C5C5BBC1EC158D9A236C61D7 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5596CB4CEA7B7B71461C9ECE75263656 /* NimbleXCTestHandler.swift */; };
 		8D0BF52FF564A170A3D1DE28C27B233E /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689A549CFB432AE0684F3EA3BA8D2FF /* Poll.swift */; };
 		8EAAF04FE448EF2AA5ADE620254C2F76 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D4A64A54F414359EC782444B27597B /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		900FC7074E0E381E5AF1619DBF69FF79 /* 132.png in Sources */ = {isa = PBXBuildFile; fileRef = C9B20146B9710A4F6D20079AA1C219C9 /* 132.png */; };
 		9187EEC2982DB82AD8D3A7001AA647D6 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F4CE0DE16848CBDA8A93366A52BEF7 /* NMBExceptionCapture.m */; };
 		930005154D5FD6D2235163F54B1D83F5 /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F492985EB6550A418DD3DB1BCDE146 /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9341B96D63EF6C54A1F906A1BBAEAF46 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = DA695A07DF17BA243064E57D889E1CBB /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94DB455CDCE3FC214A1D790DFBF3CD43 /* LoginWithClimate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A37866CFD213ABB2904B6276813F9AB /* LoginWithClimate.bundle */; };
 		9646787942A85613FE77F45794E9B5CD /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD57ED9D79412A49A037E8EAA4AF42 /* BeginWith.swift */; };
 		9E7786C034F0E0A6B5F0A0E6BE7D7E4A /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE24AE8654BDA8234080C23F6335E26 /* BeEmpty.swift */; };
+		9F12196B441BDAC72F6900CB9ACB4AF2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF7629F5ACBE668E9E704C3A4A9F56C /* Login.storyboard */; };
 		A1747BACC02828BAFDAA8D12117CC449 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF695047E0AAFB3CA54EC10F0E97FD3 /* Configuration.swift */; };
-		A177BFB3D5AC21C0F116A844AF1E9949 /* Contents.json in Sources */ = {isa = PBXBuildFile; fileRef = F83103FFF90879AFE0EEA90EA496D586 /* Contents.json */; };
-		B077C9D0D9C6EA82B1B98E482AFF941C /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E8466CC49411F27BD54E0DC47DC52 /* UserInfo.swift */; };
 		B0A26F58BA3E6222E50AE5AC883B8EAF /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DFC0D37F8449B1B2A2D117D1179A2 /* DSL.m */; };
 		B41E8E775408ACE233F29CE93388B270 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6727AA774C6723AFCA6CFCEF099071C7 /* Contain.swift */; };
 		B4D6B63C970AFA3FF9D7593E90E2571D /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F86F2C2D05CDE00BB78EF02D6D4 /* ExampleGroup.swift */; };
@@ -69,6 +69,7 @@
 		BB4F35062294C1A461DA3CEF6306A1DB /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BC3268759E7DB38A0E192F06A1BD06 /* HaveCount.swift */; };
 		BCB53F24DCADF12601B8BA90AE3190AE /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69578BBC16AAA12ED9630E2036580E94 /* BeLessThan.swift */; };
 		C150157922BAEB1F93635508FB59E618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
+		C3E57489235E97D0F55EC95FF60E6B88 /* OIDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5BB5E74129BDD2D74E57F3B314C3B /* OIDC.swift */; };
 		C5349452723E741A8A81826C8CC0EBC8 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487245080A1AB0FFD48288B814AEA82 /* World.swift */; };
 		C63AB521EA514A811A167E507C0CF9AD /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AD60FAC82B3DEDDBB09BAEE052647 /* Expression.swift */; };
 		C654FE94F23CC01F1FC29165F03FA220 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6E3634125A20B9BA58962919B08DDC /* Closures.swift */; };
@@ -79,13 +80,10 @@
 		D1191AE57EDB6898E65DAB210D2E4455 /* Pods-LoginWithClimate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBB6AF87744ED3B189B6DC3C416CBA /* Pods-LoginWithClimate_Example-dummy.m */; };
 		D2EDF0FE1883AE490E68B09E8E324546 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7511682ED488897012E4EEC14429BF /* Filter.swift */; };
 		D429691F39B4C30A8993360FB8A3E334 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CCEF958AF4E4C4F073031905F2CE2 /* AllPass.swift */; };
-		D664A6A24A04B746E110650B4AEED9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		D7B45D4600C6166C124C0A926EE65284 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E302676FFF0A4192E3ECFB4B1FDCF6 /* Functional.swift */; };
-		D83AC1FDB2E68AFC993EEB3715F4C017 /* LoginWithClimate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A32E5D7F6D4C18DC6B5505D9AD1A84 /* LoginWithClimate-dummy.m */; };
 		D8C5DC58B3217AA315EDCB76661E0239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		D902951DD7019A3C33893C07D52BBBD5 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA3CDE7515A11BE56C6C2FE5FB65D8 /* World+DSL.swift */; };
 		DEE170DD3064F7343884A4016546B762 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA388FEA33C5B8824432D9681B318F3 /* DSL+Wait.swift */; };
-		E1D915111442E56907899A0EEF8232FE /* LoginWithClimate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A37866CFD213ABB2904B6276813F9AB /* LoginWithClimate.bundle */; };
 		E2FBD93D72DF01427486D1A6853FC689 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3116FC3DA077740D1C5702FA4C187A2 /* Expectation.swift */; };
 		E36C5201AE7F1CBB25F9D2E7CBFC3C20 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0843BD7412E439120C081E8D9FE0F80 /* Match.swift */; };
 		E6845B52F6BA44A1B74CB713D8FE8C0E /* Pods-LoginWithClimate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C2232662EC574BC31B4CB363DEE698 /* Pods-LoginWithClimate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,9 +95,7 @@
 		F1D4A8A1FC68EFA7F45945908D70A352 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02297D692E5CA1B1C21CCCDA1853BA44 /* BeNil.swift */; };
 		F51C3680EE72C9F2CE53986E57239BA3 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 8880B82EFD81A0D6EE2BBD27A39D61BA /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F75C9B7027B918EF41757DBFC46F2D95 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0BEE5B67844F0E333920C2CB3416C /* SuiteHooks.swift */; };
-		F862573DB897508FAD8975F42A8D3C88 /* LoginWithClimateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83554F1D4F7A1126CDA7BA20252751E1 /* LoginWithClimateButton.swift */; };
 		FB1347627E64CA7E98C19DC985E13D95 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75276E4A134A22E123F4C40E529080C /* Equal.swift */; };
-		FFBE8B005A37C70B4F5CAA388EEC9F78 /* 88.png in Sources */ = {isa = PBXBuildFile; fileRef = BFE7C0F0BA2A3A66C29F05681524DBE5 /* 88.png */; };
 		FFC311AC1E19A23E0EB7B1B3A7A5A744 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88457B3A5C81E0F34AC48AC05B8040D6 /* RaisesException.swift */; };
 /* End PBXBuildFile section */
 
@@ -115,15 +111,8 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D9FF842487B046570E8B31A98F0B491;
+			remoteGlobalIDString = 014E1A56329ADA7E1E5524FEC552D965;
 			remoteInfo = LoginWithClimate;
-		};
-		B4B8DA776EC1C5740F3E013297A5F2E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BC6D59D43B0766E039BADA0BBA9FA2A;
-			remoteInfo = "LoginWithClimate-LoginWithClimate";
 		};
 		B9E1E4557F74B3AC41415801315BAB3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -136,8 +125,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D9FF842487B046570E8B31A98F0B491;
+			remoteGlobalIDString = 014E1A56329ADA7E1E5524FEC552D965;
 			remoteInfo = LoginWithClimate;
+		};
+		F40B639432877E9A7F13D27DD158B07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA03234BEBC3FE82C4684B270DFD0764;
+			remoteInfo = "LoginWithClimate-LoginWithClimate";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -146,22 +142,19 @@
 		021C4E135FFC34B4A74FD0560A640549 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Quick.modulemap; sourceTree = "<group>"; };
 		02297D692E5CA1B1C21CCCDA1853BA44 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		022AE1751CAD64250C80FB8F4920EF4A /* Pods-LoginWithClimate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginWithClimate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		02555C5C95F6C14600E155DF10118389 /* LoginWithClimate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LoginWithClimate.modulemap; sourceTree = "<group>"; };
 		0B0C995C72A44C02A9369FA2BDB1F4FF /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		0B53DF3C5B85F993313E9FA09386C167 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
-		11C402F4E8264D713EB735906D58265D /* LoginWithClimate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginWithClimate.xcconfig; sourceTree = "<group>"; };
 		13064CC241598F189B1341470994F9D9 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
-		138182140FF8EB40CE4EE88ABC4FD63E /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		173FCE2CEBA93D4085A212495B01A4FA /* Pods-LoginWithClimate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoginWithClimate_Tests.modulemap"; sourceTree = "<group>"; };
 		1D42013D479CDC11E7882C7C0045B66B /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		1E8B6303CCFDEBF93094E92D50CAFF38 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
-		1F4D8E5FA015E7F3F26F39B7FC6D2C54 /* ClimateWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClimateWebViewController.swift; sourceTree = "<group>"; };
+		206E7FA6B98A5BDA1507C9AF84C46173 /* LoginWithClimate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginWithClimate-dummy.m"; sourceTree = "<group>"; };
 		20ABC5A3D02301EC1EC014B6ABEFA42A /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
-		21FEBD6096ABA38D1D47BF52E4B5DD62 /* LoginWithClimate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginWithClimate-prefix.pch"; sourceTree = "<group>"; };
 		227AD60FAC82B3DEDDBB09BAEE052647 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Nimble/Expression.swift; sourceTree = "<group>"; };
 		25311F0A162835D2F2A292EB59C9BD31 /* LoginWithClimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginWithClimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2543809E4D3D9755B94735346ACDFF03 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		25961731CF4F7537A5ECD61A000A150C /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Nimble/FailureMessage.swift; sourceTree = "<group>"; };
-		26A32E5D7F6D4C18DC6B5505D9AD1A84 /* LoginWithClimate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginWithClimate-dummy.m"; sourceTree = "<group>"; };
 		279AA6492631DEFA8C439A9C088EEB8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		28CBE0D19FC6E65EFAA29981A9422B23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28D0DF7E7A59098355B7877A39D254B6 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
@@ -175,75 +168,72 @@
 		38715BF4570032AE706B97AB11365E48 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		3A37866CFD213ABB2904B6276813F9AB /* LoginWithClimate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginWithClimate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1975D001BFB447009180BAF8C14ADB /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
+		3F81386CA5EB4BCC7324941A02C6213E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB74E10AAFC65676E95C018DE7F7C2A /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FBD52025077E5788ADCE71EF040393 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		410C21D0EE81F73646F38883F8C4E9FE /* Pods-LoginWithClimate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginWithClimate_Example-resources.sh"; sourceTree = "<group>"; };
+		4734E648CEFE6CAFF3E8D35568B5F5DF /* UserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		479E50B6228A970D30D5CA67ACAE1F36 /* Pods-LoginWithClimate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginWithClimate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4930275AC98E3FD0F3BC81A7D08B8591 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 		4C0EAA5BA062125C64E6A819695F87C6 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Quick/World.h; sourceTree = "<group>"; };
 		4C6D6E41BA9F922E7BBD3A24B7E5D00A /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Quick/Callsite.swift; sourceTree = "<group>"; };
 		4F2CCEF958AF4E4C4F073031905F2CE2 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
-		526E8466CC49411F27BD54E0DC47DC52 /* UserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		549563AD8908487DA86AD4B4DD44F563 /* Pods-LoginWithClimate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginWithClimate_Tests-umbrella.h"; sourceTree = "<group>"; };
 		54BC3268759E7DB38A0E192F06A1BD06 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		5596CB4CEA7B7B71461C9ECE75263656 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
-		55EF9AF9CB2B35645EBCB0485E2F890F /* LoginWithClimate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LoginWithClimate.modulemap; sourceTree = "<group>"; };
 		58CAD815663652D8BD01702AFCFADFB2 /* Pods-LoginWithClimate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginWithClimate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		58CD57ED9D79412A49A037E8EAA4AF42 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		5BF695047E0AAFB3CA54EC10F0E97FD3 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		5D6A2E71DBC9D0DE17402BCFCFEEBDB2 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
+		5DD5BB5E74129BDD2D74E57F3B314C3B /* OIDC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OIDC.swift; sourceTree = "<group>"; };
 		609568C1E11BB55917E1E655E992E9FD /* Pods_LoginWithClimate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithClimate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		616BFD5BF73AEF373E5250D05560A338 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		61C2232662EC574BC31B4CB363DEE698 /* Pods-LoginWithClimate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginWithClimate_Example-umbrella.h"; sourceTree = "<group>"; };
 		62241019A9DFE31F82A2CDF8690A163C /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Quick/QuickSpec.m; sourceTree = "<group>"; };
 		64F0BEE5B67844F0E333920C2CB3416C /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		64F492985EB6550A418DD3DB1BCDE146 /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
-		67156E042EE544EA0D01847157F2650E /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6727AA774C6723AFCA6CFCEF099071C7 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		6950A8E5988942382F58B2ADD2507233 /* Pods-LoginWithClimate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginWithClimate_Tests-resources.sh"; sourceTree = "<group>"; };
 		69578BBC16AAA12ED9630E2036580E94 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		69A1AA2E4CDFA7B6FD9B4F253CAF481F /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		6DDA3CDE7515A11BE56C6C2FE5FB65D8 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
-		72DEF9FDCB08FD638B7337B546535C83 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		73B922FF75D982F502B345AE30399F97 /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
 		784135A9193F0FE38182AF2C577B3A52 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Nimble/Nimble.h; sourceTree = "<group>"; };
 		79AEE548B6BA69D8F486309D74C0B794 /* Pods-LoginWithClimate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginWithClimate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B938F5096BB0ED2515019B25B22E099 /* Pods_LoginWithClimate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithClimate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC5B8D585AD15619ED9232079CE1138 /* Pods-LoginWithClimate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginWithClimate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7C07CB259CB51CAA2B1B59537C0A7C2C /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
-		7DE4D768C917A4BB702C2C3851788EFA /* LoginWithClimate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginWithClimate-umbrella.h"; sourceTree = "<group>"; };
-		83554F1D4F7A1126CDA7BA20252751E1 /* LoginWithClimateButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginWithClimateButton.swift; sourceTree = "<group>"; };
+		84146D377802DCDE65E1E147BCE7DE0F /* LoginWithClimateButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginWithClimateButton.swift; sourceTree = "<group>"; };
 		8487245080A1AB0FFD48288B814AEA82 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Quick/World.swift; sourceTree = "<group>"; };
 		88457B3A5C81E0F34AC48AC05B8040D6 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		8880B82EFD81A0D6EE2BBD27A39D61BA /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Quick/QuickSpec.h; sourceTree = "<group>"; };
 		8E12C6F645E5DC0EDB23023A394F1CB1 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		94A039912FDC46FCB2AF6DCEEB91ADB4 /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Quick/DSL/World+DSL.h"; sourceTree = "<group>"; };
+		983222D1057A23F573C35BA59872F5D0 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		9FA31E06A441B5EDF74590FEFD2D086D /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F28D4E36F250C10A05D2105AAC2E4A /* Pods-LoginWithClimate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginWithClimate_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A2039723E35725E489DF34BD3F941107 /* Login.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		AE670FBBCC7FBB0E81F05DA0C8EAAEE5 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		AE6E3634125A20B9BA58962919B08DDC /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		B011BCE1507648ECA7586CF7DABF6F4C /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		B2005F86F2C2D05CDE00BB78EF02D6D4 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		B25FE38E3A882A6CF65632D37F951407 /* LoginWithClimate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginWithClimate-umbrella.h"; sourceTree = "<group>"; };
 		B3116FC3DA077740D1C5702FA4C187A2 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Nimble/Expectation.swift; sourceTree = "<group>"; };
 		B68A276C05A93CFCC331A055BCA33167 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		B84D274316F8C6F9695294FB40D7596F /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		B91241E7433B0A8A295F44DCE0308D4F /* Pods-LoginWithClimate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginWithClimate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBCFCC717193A3594C8A815FFAD1B07A /* Pods-LoginWithClimate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginWithClimate_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BC78FC3195DBB967F518F22294E6447E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD06D5AB6250903057EEDF466E2BCA65 /* LoginWithClimate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginWithClimate.xcconfig; sourceTree = "<group>"; };
 		BD5A3590ED35EEBCEDC34A95B5D83AAC /* Pods-LoginWithClimate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginWithClimate_Tests-dummy.m"; sourceTree = "<group>"; };
 		BEA1EFFE836005E11B9D420692E9E50C /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Quick/Example.swift; sourceTree = "<group>"; };
 		BF4AE1E80CC4EA4F2E1FF17CA10A3D26 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		BFA9F9DF5CA95E48BD4AF1C51F29FDA2 /* Pods-LoginWithClimate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoginWithClimate_Example.modulemap"; sourceTree = "<group>"; };
-		BFE7C0F0BA2A3A66C29F05681524DBE5 /* 88.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = 88.png; sourceTree = "<group>"; };
 		C03BB6589A73F51F073DF050F55D7F41 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
-		C3758BF7997835C721F48A57F6340BE1 /* OIDC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OIDC.swift; sourceTree = "<group>"; };
-		C3D88F89DA275DB26EFE4CC5F911868A /* 44.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
+		C6563A379B6BD6B8BBC275F3A762605C /* LoginWithClimate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginWithClimate-prefix.pch"; sourceTree = "<group>"; };
 		C7EBB6AF87744ED3B189B6DC3C416CBA /* Pods-LoginWithClimate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginWithClimate_Example-dummy.m"; sourceTree = "<group>"; };
 		C8E9634CF58B22F95DF5AA222CDAF9B8 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
-		C9B20146B9710A4F6D20079AA1C219C9 /* 132.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = 132.png; sourceTree = "<group>"; };
 		CA2BEE2DE5C55DAC51428CD66B586664 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF7629F5ACBE668E9E704C3A4A9F56C /* Login.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		CD6892139A4E44DF95C89A6BE52900CE /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nimble.modulemap; sourceTree = "<group>"; };
 		D0843BD7412E439120C081E8D9FE0F80 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
 		D17DFC0D37F8449B1B2A2D117D1179A2 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Nimble/objc/DSL.m; sourceTree = "<group>"; };
@@ -262,7 +252,7 @@
 		F5F4CE0DE16848CBDA8A93366A52BEF7 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		F689A549CFB432AE0684F3EA3BA8D2FF /* Poll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poll.swift; path = Nimble/Utils/Poll.swift; sourceTree = "<group>"; };
 		F7FE6BD80E2769820B83F2550DAC4AAF /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
-		F83103FFF90879AFE0EEA90EA496D586 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		F93FA5A276F6A6E25B0F806532BCC371 /* ClimateWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClimateWebViewController.swift; sourceTree = "<group>"; };
 		FC9D0077C69A720B9DD2BB12344FD893 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		FD0AF5781847E82CEC8A2C6AEE2DBE57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA388FEA33C5B8824432D9681B318F3 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
@@ -270,11 +260,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C26679F98FA495AE664F6BB55DB5286 /* Frameworks */ = {
+		49CB051FD1872F463AA1027049C6235B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D664A6A24A04B746E110650B4AEED9B3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +284,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACE2AAAAA5DD0349C65A210D377F60C1 /* Frameworks */ = {
+		9ADE79DC138B9C0CE9AF33DAD9EB6491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF715DB167C1B1114B52149197A1EBB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +311,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D6E073B68AAF3885B67CC4964C5DAC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F4758482536953D40FB9EA0ABA423F0A /* Resources */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		06632DD4A08DD2332C8B261AF9243C73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F93FA5A276F6A6E25B0F806532BCC371 /* ClimateWebViewController.swift */,
+				84146D377802DCDE65E1E147BCE7DE0F /* LoginWithClimateButton.swift */,
+				5DD5BB5E74129BDD2D74E57F3B314C3B /* OIDC.swift */,
+				4734E648CEFE6CAFF3E8D35568B5F5DF /* UserInfo.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		097500A9458C87C0ED399793A2EE7510 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,15 +339,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0C60D0693DD9977F4DC0CEB07FB37507 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7B8C2BEA9C67757352234CC09F01A497 /* Classes */,
-				E1A89745B67C4E06F5614FE16AA12950 /* Resources */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		0C6B012983F9FEF8CC65C1318F5F090C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,27 +346,6 @@
 				279AA6492631DEFA8C439A9C088EEB8A /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		0F4D315768B6C5E0C221FDA597D8C3B0 /* Media.xcassets */ = {
-			isa = PBXGroup;
-			children = (
-				138182140FF8EB40CE4EE88ABC4FD63E /* Contents.json */,
-				7FF7C30D2B4415805C3CA0937A0C70DB /* LoginWithClimateButton.imageset */,
-			);
-			path = Media.xcassets;
-			sourceTree = "<group>";
-		};
-		12BC3F099C561B50CF8A9898ED54779D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1F4D8E5FA015E7F3F26F39B7FC6D2C54 /* ClimateWebViewController.swift */,
-				83554F1D4F7A1126CDA7BA20252751E1 /* LoginWithClimateButton.swift */,
-				C3758BF7997835C721F48A57F6340BE1 /* OIDC.swift */,
-				526E8466CC49411F27BD54E0DC47DC52 /* UserInfo.swift */,
-				0F4D315768B6C5E0C221FDA597D8C3B0 /* Media.xcassets */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		16F40755D50C39F84A302222E30E8DD2 /* Support Files */ = {
@@ -381,6 +360,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Quick";
+			sourceTree = "<group>";
+		};
+		2C06D4309B0D49FDEFC5A9E218047D97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02D6E073B68AAF3885B67CC4964C5DAC /* Pod */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2EF4C3AD23A86AE9E74D32394916C764 /* Products */ = {
@@ -436,28 +423,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		488AA0BF213F1885ECB03E9505F0ACF4 /* Pod */ = {
+		489FB08200792E55C1149C019B292127 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				12BC3F099C561B50CF8A9898ED54779D /* Classes */,
+				3F81386CA5EB4BCC7324941A02C6213E /* Info.plist */,
+				02555C5C95F6C14600E155DF10118389 /* LoginWithClimate.modulemap */,
+				BD06D5AB6250903057EEDF466E2BCA65 /* LoginWithClimate.xcconfig */,
+				206E7FA6B98A5BDA1507C9AF84C46173 /* LoginWithClimate-dummy.m */,
+				C6563A379B6BD6B8BBC275F3A762605C /* LoginWithClimate-prefix.pch */,
+				B25FE38E3A882A6CF65632D37F951407 /* LoginWithClimate-umbrella.h */,
 			);
-			path = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LoginWithClimate";
 			sourceTree = "<group>";
 		};
 		4AA9DC7D6E4161D55928A0D61BB36715 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				77259082B84193FB0DB0E39050372745 /* LoginWithClimate */,
+				518B2CFF265C42266AB209915D4D1E45 /* LoginWithClimate */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6454554DEA917B8501F59C7F4B4A8840 /* LoginWithClimate */ = {
+		518B2CFF265C42266AB209915D4D1E45 /* LoginWithClimate */ = {
 			isa = PBXGroup;
 			children = (
-				72DEF9FDCB08FD638B7337B546535C83 /* Images.xcassets */,
+				689AF6C5753A4C39AC2984D2C0EDC080 /* Pod */,
+				2C06D4309B0D49FDEFC5A9E218047D97 /* Resources */,
+				489FB08200792E55C1149C019B292127 /* Support Files */,
 			);
-			path = LoginWithClimate;
+			name = LoginWithClimate;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		64E98FF7B6454214F8290BB0AC208D8F /* Quick */ = {
@@ -491,46 +487,12 @@
 			path = Quick;
 			sourceTree = "<group>";
 		};
-		678E95C1FEEC97E21B9FAD4383DAE2E3 /* Resources */ = {
+		689AF6C5753A4C39AC2984D2C0EDC080 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A6D803D4ADAE54ABB38C7F35559E7CA2 /* Example */,
-				0C60D0693DD9977F4DC0CEB07FB37507 /* Pod */,
+				06632DD4A08DD2332C8B261AF9243C73 /* Classes */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7494A767E49856A160D71211A19FA6C4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BC78FC3195DBB967F518F22294E6447E /* Info.plist */,
-				55EF9AF9CB2B35645EBCB0485E2F890F /* LoginWithClimate.modulemap */,
-				11C402F4E8264D713EB735906D58265D /* LoginWithClimate.xcconfig */,
-				26A32E5D7F6D4C18DC6B5505D9AD1A84 /* LoginWithClimate-dummy.m */,
-				21FEBD6096ABA38D1D47BF52E4B5DD62 /* LoginWithClimate-prefix.pch */,
-				7DE4D768C917A4BB702C2C3851788EFA /* LoginWithClimate-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LoginWithClimate";
-			sourceTree = "<group>";
-		};
-		77259082B84193FB0DB0E39050372745 /* LoginWithClimate */ = {
-			isa = PBXGroup;
-			children = (
-				488AA0BF213F1885ECB03E9505F0ACF4 /* Pod */,
-				678E95C1FEEC97E21B9FAD4383DAE2E3 /* Resources */,
-				7494A767E49856A160D71211A19FA6C4 /* Support Files */,
-			);
-			name = LoginWithClimate;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7B8C2BEA9C67757352234CC09F01A497 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				67156E042EE544EA0D01847157F2650E /* Media.xcassets */,
-			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -545,17 +507,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		7FF7C30D2B4415805C3CA0937A0C70DB /* LoginWithClimateButton.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				C9B20146B9710A4F6D20079AA1C219C9 /* 132.png */,
-				C3D88F89DA275DB26EFE4CC5F911868A /* 44.png */,
-				BFE7C0F0BA2A3A66C29F05681524DBE5 /* 88.png */,
-				F83103FFF90879AFE0EEA90EA496D586 /* Contents.json */,
-			);
-			path = LoginWithClimateButton.imageset;
-			sourceTree = "<group>";
-		};
 		8F29E9621F2E4347FEA6F6D7F0748038 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -563,14 +514,6 @@
 				64E98FF7B6454214F8290BB0AC208D8F /* Quick */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		A6D803D4ADAE54ABB38C7F35559E7CA2 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				6454554DEA917B8501F59C7F4B4A8840 /* LoginWithClimate */,
-			);
-			path = Example;
 			sourceTree = "<group>";
 		};
 		D06DB0AB526F7B4FD31708B37BFE8A13 /* Pods-LoginWithClimate_Tests */ = {
@@ -642,10 +585,11 @@
 			path = Nimble;
 			sourceTree = "<group>";
 		};
-		E1A89745B67C4E06F5614FE16AA12950 /* Resources */ = {
+		F4758482536953D40FB9EA0ABA423F0A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A2039723E35725E489DF34BD3F941107 /* Login.storyboard */,
+				CCF7629F5ACBE668E9E704C3A4A9F56C /* Login.storyboard */,
+				983222D1057A23F573C35BA59872F5D0 /* Media.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -653,19 +597,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A53F00182DA585ABCECA36A2FD1BC15 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				599539006BD09D1D62E61CC492C79C6D /* LoginWithClimate-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2E2311FCCA84E5C3B061F1B231DAD498 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				35BE16198466FACF343B15E6BF5168CD /* Pods-LoginWithClimate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0653104F2AB88F357C1B67813845ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B4129A58EA1E8D7AC6C8D7610C4D80 /* LoginWithClimate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,19 +650,19 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3D9FF842487B046570E8B31A98F0B491 /* LoginWithClimate */ = {
+		014E1A56329ADA7E1E5524FEC552D965 /* LoginWithClimate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93A060332939F061A375C3207675AD79 /* Build configuration list for PBXNativeTarget "LoginWithClimate" */;
+			buildConfigurationList = 3BB18CB9F99E7C6B2D72DC17E7E067A5 /* Build configuration list for PBXNativeTarget "LoginWithClimate" */;
 			buildPhases = (
-				2DE5A5835E6E94F00AEA1A5981E8F178 /* Sources */,
-				6C26679F98FA495AE664F6BB55DB5286 /* Frameworks */,
-				934B05D7D795E0FCC6A5F0C4BFDDD3F3 /* Resources */,
-				0A53F00182DA585ABCECA36A2FD1BC15 /* Headers */,
+				B5DD8C79831255C136080A10331BCD77 /* Sources */,
+				9ADE79DC138B9C0CE9AF33DAD9EB6491 /* Frameworks */,
+				01EBD644E1864A32C956985E6A44E207 /* Resources */,
+				AB0653104F2AB88F357C1B67813845ED /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FFD40ABEE333E2E22350F6C9D3EAB247 /* PBXTargetDependency */,
+				265FF36372F3C934BCACA840D5B456DE /* PBXTargetDependency */,
 			);
 			name = LoginWithClimate;
 			productName = LoginWithClimate;
@@ -760,23 +704,6 @@
 			productReference = 9FA31E06A441B5EDF74590FEFD2D086D /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5BC6D59D43B0766E039BADA0BBA9FA2A /* LoginWithClimate-LoginWithClimate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 19704494AA3E4D40A143AC6E1137B35F /* Build configuration list for PBXNativeTarget "LoginWithClimate-LoginWithClimate" */;
-			buildPhases = (
-				D9AEBB5B5A012033C144ADAB4C0DBC97 /* Sources */,
-				ACE2AAAAA5DD0349C65A210D377F60C1 /* Frameworks */,
-				9162652963EA16BF2A20AC7BA2422232 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LoginWithClimate-LoginWithClimate";
-			productName = "LoginWithClimate-LoginWithClimate";
-			productReference = 3A37866CFD213ABB2904B6276813F9AB /* LoginWithClimate.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		7F9F0E522409A1C4B254CE7F26011F6D /* Pods-LoginWithClimate_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3A22F4809719C033EE73BC2E61B2067 /* Build configuration list for PBXNativeTarget "Pods-LoginWithClimate_Tests" */;
@@ -796,6 +723,23 @@
 			productName = "Pods-LoginWithClimate_Tests";
 			productReference = 7B938F5096BB0ED2515019B25B22E099 /* Pods_LoginWithClimate_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		AA03234BEBC3FE82C4684B270DFD0764 /* LoginWithClimate-LoginWithClimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA55BAF3B38300459C78FA64A1D71AA7 /* Build configuration list for PBXNativeTarget "LoginWithClimate-LoginWithClimate" */;
+			buildPhases = (
+				A60B831C633CC1F60FA34A10CE685B52 /* Sources */,
+				49CB051FD1872F463AA1027049C6235B /* Frameworks */,
+				CBF1DF3E9DB3565DFE3CE3A4DA88614F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoginWithClimate-LoginWithClimate";
+			productName = "LoginWithClimate-LoginWithClimate";
+			productReference = 3A37866CFD213ABB2904B6276813F9AB /* LoginWithClimate.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		C5DB5104FED3C10F78978AFC810982B9 /* Nimble */ = {
 			isa = PBXNativeTarget;
@@ -835,8 +779,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D9FF842487B046570E8B31A98F0B491 /* LoginWithClimate */,
-				5BC6D59D43B0766E039BADA0BBA9FA2A /* LoginWithClimate-LoginWithClimate */,
+				014E1A56329ADA7E1E5524FEC552D965 /* LoginWithClimate */,
+				AA03234BEBC3FE82C4684B270DFD0764 /* LoginWithClimate-LoginWithClimate */,
 				C5DB5104FED3C10F78978AFC810982B9 /* Nimble */,
 				3DFD5628D7CED4BA7B6BDDA4F8BD4BC5 /* Pods-LoginWithClimate_Example */,
 				7F9F0E522409A1C4B254CE7F26011F6D /* Pods-LoginWithClimate_Tests */,
@@ -846,44 +790,27 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9162652963EA16BF2A20AC7BA2422232 /* Resources */ = {
+		01EBD644E1864A32C956985E6A44E207 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				139B2FA5C83E09E95FB324FBA0BE8120 /* Login.storyboard in Resources */,
+				94DB455CDCE3FC214A1D790DFBF3CD43 /* LoginWithClimate.bundle in Resources */,
+				0089C3E456B3A1788743ADFCF7B54650 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		934B05D7D795E0FCC6A5F0C4BFDDD3F3 /* Resources */ = {
+		CBF1DF3E9DB3565DFE3CE3A4DA88614F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1027ECE49B3413A0B40D57C5AC344AB3 /* Images.xcassets in Resources */,
-				E1D915111442E56907899A0EEF8232FE /* LoginWithClimate.bundle in Resources */,
-				0FFA4BBC84514B6BF49634217D1272E3 /* Media.xcassets in Resources */,
+				9F12196B441BDAC72F6900CB9ACB4AF2 /* Login.storyboard in Resources */,
+				3D9B7E5D26E5812E2D5ADA0399F3272D /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2DE5A5835E6E94F00AEA1A5981E8F178 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				900FC7074E0E381E5AF1619DBF69FF79 /* 132.png in Sources */,
-				19FAA86A3B62BBC76D0F37B29D316DBD /* 44.png in Sources */,
-				FFBE8B005A37C70B4F5CAA388EEC9F78 /* 88.png in Sources */,
-				40F7F963A85CEEC79718EFBA729422FC /* ClimateWebViewController.swift in Sources */,
-				A177BFB3D5AC21C0F116A844AF1E9949 /* Contents.json in Sources */,
-				A177BFB3D5AC21C0F116A844AF1E9949 /* Contents.json in Sources */,
-				D83AC1FDB2E68AFC993EEB3715F4C017 /* LoginWithClimate-dummy.m in Sources */,
-				F862573DB897508FAD8975F42A8D3C88 /* LoginWithClimateButton.swift in Sources */,
-				785745053768D0EE204CF3284F43F81C /* OIDC.swift in Sources */,
-				B077C9D0D9C6EA82B1B98E482AFF941C /* UserInfo.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81C92AEBF17877AE5B3FD0956F17A44C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -921,6 +848,25 @@
 				F75C9B7027B918EF41757DBFC46F2D95 /* SuiteHooks.swift in Sources */,
 				D902951DD7019A3C33893C07D52BBBD5 /* World+DSL.swift in Sources */,
 				C5349452723E741A8A81826C8CC0EBC8 /* World.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60B831C633CC1F60FA34A10CE685B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DD8C79831255C136080A10331BCD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EA773BF5B427D1581707FEC6078A73 /* ClimateWebViewController.swift in Sources */,
+				397BE70C44AA889EF3B1E4C9CAFB43CA /* LoginWithClimate-dummy.m in Sources */,
+				5DF69B6B12CDC9A999515B0016F3862E /* LoginWithClimateButton.swift in Sources */,
+				C3E57489235E97D0F55EC95FF60E6B88 /* OIDC.swift in Sources */,
+				7459A4FDBD2926618DFF6314836D0BDC /* UserInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,20 +918,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9AEBB5B5A012033C144ADAB4C0DBC97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		265FF36372F3C934BCACA840D5B456DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LoginWithClimate-LoginWithClimate";
+			target = AA03234BEBC3FE82C4684B270DFD0764 /* LoginWithClimate-LoginWithClimate */;
+			targetProxy = F40B639432877E9A7F13D27DD158B07C /* PBXContainerItemProxy */;
+		};
 		41E312EB87909FF1641D64A5CE1F265B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LoginWithClimate;
-			target = 3D9FF842487B046570E8B31A98F0B491 /* LoginWithClimate */;
+			target = 014E1A56329ADA7E1E5524FEC552D965 /* LoginWithClimate */;
 			targetProxy = E674BC79F5D722513A0AF5A8E5A388F1 /* PBXContainerItemProxy */;
 		};
 		460EB5BF9D6FEE4D6B977A1501E3C96F /* PBXTargetDependency */ = {
@@ -997,7 +942,7 @@
 		CEF555088839F6F1ABD548C3BC4B3BBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LoginWithClimate;
-			target = 3D9FF842487B046570E8B31A98F0B491 /* LoginWithClimate */;
+			target = 014E1A56329ADA7E1E5524FEC552D965 /* LoginWithClimate */;
 			targetProxy = 8B948BFE4AC61F9AB396D82804AC702B /* PBXContainerItemProxy */;
 		};
 		DC02E2DA35E6AA0913E5D0FBEB043415 /* PBXTargetDependency */ = {
@@ -1006,43 +951,9 @@
 			target = 4C99E230FCC2F85D066A51190C2AF57D /* Quick */;
 			targetProxy = B9E1E4557F74B3AC41415801315BAB3B /* PBXContainerItemProxy */;
 		};
-		FFD40ABEE333E2E22350F6C9D3EAB247 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "LoginWithClimate-LoginWithClimate";
-			target = 5BC6D59D43B0766E039BADA0BBA9FA2A /* LoginWithClimate-LoginWithClimate */;
-			targetProxy = B4B8DA776EC1C5740F3E013297A5F2E1 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4097059E795F2B89DA1D896D050C6BF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11C402F4E8264D713EB735906D58265D /* LoginWithClimate.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LoginWithClimate/LoginWithClimate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LoginWithClimate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LoginWithClimate/LoginWithClimate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LoginWithClimate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		48F86A2BC635CEDAA0BAF707B987003D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C07CB259CB51CAA2B1B59537C0A7C2C /* Quick.xcconfig */;
@@ -1168,15 +1079,30 @@
 			};
 			name = Release;
 		};
-		68B14C35CC5F7A40A94168B3437144B3 /* Release */ = {
+		618CAD9CC6DF531C9D08187D11459C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11C402F4E8264D713EB735906D58265D /* LoginWithClimate.xcconfig */;
+			baseConfigurationReference = BD06D5AB6250903057EEDF466E2BCA65 /* LoginWithClimate.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LoginWithClimate/LoginWithClimate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginWithClimate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoginWithClimate/LoginWithClimate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = LoginWithClimate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1305,9 +1231,9 @@
 			};
 			name = Release;
 		};
-		B3D3B836F7044CF185FE083E19813A4B /* Release */ = {
+		C01EC7E761B5C00FABAF97EEE882B6CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11C402F4E8264D713EB735906D58265D /* LoginWithClimate.xcconfig */;
+			baseConfigurationReference = BD06D5AB6250903057EEDF466E2BCA65 /* LoginWithClimate.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1322,15 +1248,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LoginWithClimate/LoginWithClimate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = LoginWithClimate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C312D0EAA3266ABF0E16009057FF68B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1357,18 +1284,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CC74AF75B28FE26B185D89C02755F027 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11C402F4E8264D713EB735906D58265D /* LoginWithClimate.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = LoginWithClimate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1399,18 +1314,33 @@
 			};
 			name = Release;
 		};
+		DCC7926E9FCC0D8C20FF5DFCBBB5743B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD06D5AB6250903057EEDF466E2BCA65 /* LoginWithClimate.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LoginWithClimate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E0ADD22335D0EDA51424BAF07BD18470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD06D5AB6250903057EEDF466E2BCA65 /* LoginWithClimate.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LoginWithClimate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19704494AA3E4D40A143AC6E1137B35F /* Build configuration list for PBXNativeTarget "LoginWithClimate-LoginWithClimate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC74AF75B28FE26B185D89C02755F027 /* Debug */,
-				68B14C35CC5F7A40A94168B3437144B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1420,11 +1350,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93A060332939F061A375C3207675AD79 /* Build configuration list for PBXNativeTarget "LoginWithClimate" */ = {
+		3BB18CB9F99E7C6B2D72DC17E7E067A5 /* Build configuration list for PBXNativeTarget "LoginWithClimate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4097059E795F2B89DA1D896D050C6BF2 /* Debug */,
-				B3D3B836F7044CF185FE083E19813A4B /* Release */,
+				C01EC7E761B5C00FABAF97EEE882B6CD /* Debug */,
+				618CAD9CC6DF531C9D08187D11459C5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1461,6 +1391,15 @@
 			buildConfigurations = (
 				4EF4BB3B4954CE69B69114AAF0551EBA /* Debug */,
 				88996D97CB63A28C158BC8D58FE37A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA55BAF3B38300459C78FA64A1D71AA7 /* Build configuration list for PBXNativeTarget "LoginWithClimate-LoginWithClimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ADD22335D0EDA51424BAF07BD18470 /* Debug */,
+				DCC7926E9FCC0D8C20FF5DFCBBB5743B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

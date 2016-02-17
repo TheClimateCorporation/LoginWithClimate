@@ -24,7 +24,6 @@
     ]
   },
   "resources": [
-    "Pod/Classes/Media.xcassets",
-    "**/*.xcassets"
+    "Pod/Resources/Media.xcassets"
   ]
 }
