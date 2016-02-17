@@ -22,7 +22,7 @@ LoginWithClimate is available as a [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LoginWithClimate", :git => 'https://github.com/TheClimateCorporation/LoginWithClimate', :tag => '0.1.0'
+pod "LoginWithClimate", :git => 'https://github.com/TheClimateCorporation/LoginWithClimate', :tag => '0.1.1'
 ```
 
 ## License
