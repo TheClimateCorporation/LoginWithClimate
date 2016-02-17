@@ -22,5 +22,9 @@
       "Pod/Assets/*.png",
       "Pod/Resources/*"
     ]
-  }
+  },
+  "resources": [
+    "Pod/Classes/Media.xcassets",
+    "**/*.xcassets"
+  ]
 }

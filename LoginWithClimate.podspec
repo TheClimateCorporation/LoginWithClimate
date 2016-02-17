@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/TheClimateCorporation/LoginWithClimate"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'Apache 2.0'
   s.author           = { "Tommy Rogers" => "tommy.rogers@climate.com" }
   s.source           = { :git => "https://github.com/TheClimateCorporation/LoginWithClimate.git", :tag => s.version.to_s }
@@ -29,4 +28,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'LoginWithClimate' => ['Pod/Assets/*.png', 'Pod/Resources/*']
   }
+  s.resources = ['Pod/Classes/Media.xcassets', '**/*.xcassets']
 end

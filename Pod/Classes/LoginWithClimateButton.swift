@@ -43,17 +43,22 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
     }
 
     override public func loadView() {
-        guard let bundle = resourceBundle() else {
-            print("ERROR: Fatal error in LoginWithClimate. Could not locate nested resource bundle with button image.")
-            view = UIView() // To avoid crashing the whole app when we can't load.
-            return
-        }
-
         guard let img: UIImage = UIImage.init(named: "LoginWithClimateButton",
-            inBundle: bundle,
+            inBundle: nil, // Work-around for cocoapods not supporting asset catalogs inside resource bundle.
             compatibleWithTraitCollection: nil) else {
                 print("ERROR: Fatal error in LoginWithClimate. Could not locate button image.")
                 view = UIView() // To avoid crashing the whole app when we can't load.
+                
+                let docsPath = NSBundle.mainBundle().bundlePath
+                let fileManager = NSFileManager.defaultManager()
+
+                do {
+                    let docsArray = try fileManager.contentsOfDirectoryAtPath(docsPath)
+                    print(docsArray)
+                } catch {
+                    print(error)
+                }
+
                 return
         }
 
