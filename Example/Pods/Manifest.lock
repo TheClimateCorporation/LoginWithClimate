@@ -1,20 +1,14 @@
 PODS:
-  - LoginWithClimate (0.1.0)
-  - Nimble (3.0.0)
-  - Quick (0.8.0)
+  - LoginWithClimate (0.1.1)
 
 DEPENDENCIES:
   - LoginWithClimate (from `../`)
-  - Nimble (= 3.0.0)
-  - Quick (~> 0.8.0)
 
 EXTERNAL SOURCES:
   LoginWithClimate:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LoginWithClimate: 4a2c86b944c4fbd3b31b4db21141043264439de7
-  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  LoginWithClimate: d490895ff1f80ef9b0b18a02c7d6c0905f089e08
 
 COCOAPODS: 0.39.0

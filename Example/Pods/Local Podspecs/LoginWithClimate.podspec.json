@@ -1,6 +1,6 @@
 {
   "name": "LoginWithClimate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "An OpenID connect implementation for integrating climate.com logins into third-party apps.",
   "description": "An OpenID connect implementation for integrating climate.com logins into third-party apps.\nExports a \"Login with Climate\" button.",
   "homepage": "https://github.com/TheClimateCorporation/LoginWithClimate",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/TheClimateCorporation/LoginWithClimate.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
