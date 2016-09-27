@@ -56,7 +56,7 @@ public class LoginWithClimateButton: UIViewController, AuthorizationCodeDelegate
         let button = UIButton(type: .Custom)
         button.setImage(img, forState: .Normal)
         button.imageView?.contentMode = .ScaleAspectFit
-        button.addTarget(self, action: "loginWithClimate:", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: #selector(LoginWithClimateButton.loginWithClimate(_:)), forControlEvents: .TouchUpInside)
 
         view = button
     }

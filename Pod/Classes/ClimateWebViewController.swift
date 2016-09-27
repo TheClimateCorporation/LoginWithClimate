@@ -39,9 +39,9 @@ class ClimateWebViewController: UIViewController, UIWebViewDelegate {
         UIApplication.sharedApplication().networkActivityIndicatorVisible = false
     }
 
-    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
         // We are sure to get these errors when we prevent the redirect in shouldStartLoadWithRequest
-        if (error?.code == NSURLErrorCancelled || error?.code == 102 || error?.code == 101) {
+        if (error.code == NSURLErrorCancelled || error.code == 102 || error.code == 101) {
             return
         }
 

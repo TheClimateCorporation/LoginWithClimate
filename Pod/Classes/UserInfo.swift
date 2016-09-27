@@ -18,18 +18,12 @@ public class Session {
 
     public init?(dictionary: [String: AnyObject]) {
         guard let accessToken = dictionary["access_token"] as? String,
-            expiresIn = dictionary["expires_in"] as? Int,
-            scope = dictionary["scope"] as? String,
-            userDict = dictionary["user"] as? [String: AnyObject],
-            userInfo = UserInfo(dictionary: userDict)
-            else {
-                // TODO remove once upgraded to Swift 2.2 which fixes this bug
-                self.accessToken = ""
-                self.expiresIn = 0
-                self.scope = ""
-                self.userInfo = UserInfo(dictionary: [String: AnyObject]())
-
-                return nil
+            let expiresIn = dictionary["expires_in"] as? Int,
+            let scope = dictionary["scope"] as? String,
+            let userDict = dictionary["user"] as? [String: AnyObject],
+            let userInfo = UserInfo(dictionary: userDict)
+        else {
+            return nil
         }
 
         self.accessToken = accessToken
@@ -61,24 +55,10 @@ public class UserInfo {
 
     public init?(dictionary: [String: AnyObject]) {
         guard let id = dictionary["id"] as? Int,
-                firstName = dictionary["firstname"] as? String,
-                lastName = dictionary["lastname"] as? String,
-                email = dictionary["email"] as? String
+                let firstName = dictionary["firstname"] as? String,
+                let lastName = dictionary["lastname"] as? String,
+                let email = dictionary["email"] as? String
         else {
-            // TODO remove once upgraded to Swift 2.2 which fixes this bug
-            self.id = 0
-            self.email = ""
-            self.firstName = ""
-            self.lastName = ""
-            self.roles = []
-            self.address1 = nil
-            self.address2 = nil
-            self.zip = nil
-            self.country = nil
-            self.city = nil
-            self.state = nil
-            self.phone = nil
-            
             return nil
         }
 
